@@ -41,15 +41,15 @@ Mayo2016_2d/
 
 ## Traning and & Inference
 
-Training of LLM-guided NDCT autoencoder:      
+#### Training of LLM-guided NDCT autoencoder:      
 We used the official repository of VQ-GAN (https://github.com/CompVis/taming-transformers) to set up training. Please refer to (models/taming) learn about our modifications to original VQ-GAN.
 
-Employment of LEDA for training the denoising model:  
+#### Employment of LEDA for training the denoising model:  
 ```
 python train.py  --name LEDA(experiment_name)   --model LEDA  --netG  redcnn  --dataroot /data/zhchen/Mayo2016_2d(path to images) --lr 0.0002 --gpu_ids 6,7 --print_freq 25 --batch_size 8 --lr_policy cosine
 ```
 
-Inference & testing:
+#### Inference & testing:
 ```
 python test.py  --name LEDA(experiment_name)   --model LEDA  --netG redcnn --results_dir test_results --result_name LEDA_results(path to save image)   --gpu_ids 6 --batch_size 1 --eval
 ```
