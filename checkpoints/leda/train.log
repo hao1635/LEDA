@@ -1,0 +1,13 @@
+[2024-03-23 21:50:26,555][train.py][line:30][INFO] RED_CNN(
+  (conv1): Conv2d(1, 96, kernel_size=(5, 5), stride=(1, 1))
+  (conv2): Conv2d(96, 96, kernel_size=(5, 5), stride=(1, 1))
+  (conv3): Conv2d(96, 96, kernel_size=(5, 5), stride=(1, 1))
+  (conv4): Conv2d(96, 96, kernel_size=(5, 5), stride=(1, 1))
+  (conv5): Conv2d(96, 96, kernel_size=(5, 5), stride=(1, 1))
+  (tconv1): ConvTranspose2d(96, 96, kernel_size=(5, 5), stride=(1, 1))
+  (tconv2): ConvTranspose2d(96, 96, kernel_size=(5, 5), stride=(1, 1))
+  (tconv3): ConvTranspose2d(96, 96, kernel_size=(5, 5), stride=(1, 1))
+  (tconv4): ConvTranspose2d(96, 96, kernel_size=(5, 5), stride=(1, 1))
+  (tconv5): ConvTranspose2d(96, 1, kernel_size=(5, 5), stride=(1, 1))
+  (relu): ReLU()
+)
