@@ -3,7 +3,7 @@ Official implementation of "Low-dose CT Denoising with Language-engaged Dual-spa
 
 
 ## Updates
-May, 2024: initial commit.  
+March, 2024: initial commit.  
 
 ## Approach
 ![](figs/network.png)
