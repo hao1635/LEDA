@@ -42,7 +42,8 @@ Mayo2016_2d/
 ## Traning and & Inference
 
 #### Training of LLM-guided NDCT autoencoder:      
-We used the official repository of VQ-GAN (https://github.com/CompVis/taming-transformers) to set up training. Please refer to (models/taming) to learn about our modifications to original VQ-GAN.
+Build per-layer candidate token:```python process_words.py```  
+Then we used the official repository of VQ-GAN (https://github.com/CompVis/taming-transformers) to set up training. Please refer to (models/taming) to learn about our modifications to original VQ-GAN.
 
 #### Employment of LEDA for training the denoising model:  
 ```
