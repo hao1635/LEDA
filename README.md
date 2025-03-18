@@ -3,7 +3,8 @@ Official implementation of "Low-dose CT Denoising with Language-engaged Dual-spa
 
 
 ## Updates
-March, 2024: initial commit.  
+- March, 2025: Uploaded the pre-trained model of LLM-guided autoencoder on the Mayo-2016 : [model-step-600000](https://drive.google.com/drive/folders/1hXlqCDpeJtk-JuYvndmU43Q77EaunlFd?usp=sharing).
+- March, 2024: initial commit.  
 
 ## Approach
 ![](figs/network.png)
